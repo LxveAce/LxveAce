@@ -70,7 +70,7 @@ Outside of work, I build cybersecurity tools, desktop applications, and hardware
 ![Blueprint Reading](https://img.shields.io/badge/-Blueprint%20Reading-0066CC?style=flat-square&logoColor=ffffff)
 ![Workpack Development](https://img.shields.io/badge/-Workpack%20Development-1F6FEB?style=flat-square&logoColor=ffffff)
 ![Trotec Laser](https://img.shields.io/badge/-Trotec%20CO2%20Laser-E31937?style=flat-square&logoColor=ffffff)
-![Roland Printer](https://img.shields.io/badge/-Roland%20BY--20A-004B87?style=flat-square&logoColor=ffffff)
+![Roland Printer](https://img.shields.io/badge/-Roland%20BN--20A-004B87?style=flat-square&logoColor=ffffff)
 
 **OS**
 
