@@ -1,6 +1,6 @@
 <!-- Typing animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=500&lines=Hey%2C+I'm+LxveAce;Electrical+Field+Engineer;Security+%26+Hardware+Builder;Honda+%2F+Acura+Enthusiast&center=true&size=27" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=500&lines=Hey%2C+I'm+LxveAce;Founder+of+LxveLabs;Electrical+Field+Engineer;Security+%26+Hardware+Builder;Honda+%2F+Acura+Enthusiast&center=true&size=27" alt="Typing SVG" />
 </div>
 
 ---
@@ -15,7 +15,7 @@ Outside of work I run **LxveLabs** — my hardware & security-tools studio — w
 
 ## About Me
 
-- 🧪 Founder of **LxveLabs** — hardware & security tools (Cyber Controller, Dead Man's Switch, custom ESP32 firmware + boards, developing hardware with PCBWay)
+- 🧪 Founder of **LxveLabs** — hardware & security tools (Cyber Controller, Dead Man's Switch, LxveOS firmware + LxveNode board, developing hardware with PCBWay)
 - ⚡ Electrical Field Engineer — mission-critical data centers, workpack development, QA/QC, RFIs & submittals, multi-trade coordination
 - 📡 Building multi-UI serial controllers and security tools for ESP32 platforms
 - 🖥️ Developing a multi-vendor AI workbench desktop app with Electron, React, and TypeScript
@@ -96,6 +96,10 @@ Unified firmware and software flasher in one app, with two clearly separate tabs
 Universal anti-forensic dead-man gate for ESP32 security firmware. PBKDF2-HMAC-SHA256 boot password, 2-fail automatic wipe with a power-cycle-safe attempt counter, GPIO dead-man switch for hardware panic/tamper detection, and optional eFuse-locked Secure Boot v2 with flash encryption. Hardware-validated to obliterate the entire flash on trigger with a forensic random-overwrite pass, leaving an all-0xFF chip and no trace. Owner-only defensive measure — same category as Kali's LUKS Nuke and BusKill.
 > Lineage: Successor to **[Suicide Marauder](https://github.com/LxveAce/Suicide-Marauder)**, which was Marauder-specific with Fork and Guardian architectures. Dead Man's Switch generalizes the concept to any ESP32 security firmware — not just Marauder — and ships as a standalone submodule.
 
+### LxveOS & LxveNode — firmware + hardware (in development)
+**LxveOS** is a unified, multi-board ESP32 security firmware (ESP-IDF, MIT core) in early development — one codebase that adapts to the board it's flashed to, from a bare ESP32 to the CYD, M5StickC Plus2, and M5Cardputer, with the whole board fleet driven from a single capability manifest. **LxveNode** is the custom multi-radio board being developed around it in collaboration with [PCBWay](https://www.pcbway.com). Both are actively in progress — details at [lxvelabs.com](https://lxvelabs.com/#hardware).
+> Grew out of the ESP32 tooling above: instead of maintaining many single-board firmware forks, LxveOS is one firmware that detects and adapts to its hardware.
+
 ### [Security & Hardware Projects](https://github.com/LxveAce/Projects)
 19 cybersecurity and hardware hacking projects with step-by-step build guides, firmware references, and complete shopping lists. Flagship: a 14-device Pelican 1300 cyberdeck with dual-band WiFi (ESP32-C5), LoRa mesh, IMSI catcher detection (RayHunter), IoT credential harvesting (HaleHound), wired network pentesting (RaspyJack), Kismet WiFi 6E wardriving, and Flock/drone/BLE detection — all from one battery. Complete $1,600-$1,900 hardware inventory.
 > No predecessor — built from the ground up as a single source of truth for every hardware and security project.
@@ -112,14 +116,12 @@ Industrial-grade desktop studio for label and tag design, built with Electron, R
 2009 Honda Civic SI (FG2) K20Z3 build — tracked in git. Covers bolt-on modifications, maintenance scheduling, install guides, and part research from intake and exhaust to ECU calibration with Hondata FlashPro, flex fuel, and full suspension overhaul. Includes a Python PDF generator for printable build documentation.
 > No predecessor — started directly as a git-tracked build log to document the car from stock through every modification.
 
-### [Claude Compact Controller](https://github.com/LxveAce/claude-compact-controller)
-Zero-dependency Node.js hook system for Claude Code. Manages context window compression across Stop, PreCompact, and PostCompact events with automatic session state tracking, transcript vault backups, and configurable thresholds. Installs directly into the Claude Code hooks API.
-
 ## Connect
 
-- 💬 **Discord** — [discord.gg/lxveace](https://discord.gg/lxveace) — for questions, help, or to talk shop on any of these projects
+- 💬 **Discord** — [discord.gg/lxvelabs](https://discord.gg/lxvelabs) — for questions, help, or to talk shop on any of these projects
 - 🐙 **GitHub** — [@LxveAce](https://github.com/LxveAce)
-- 🌐 **Portfolio** — [lxveace.com](https://lxveace.com)
+- ✉️ **Email** — LxveLabs@proton.me (business) · lxveace@proton.me (direct)
+- 🌐 **LxveLabs** — [lxvelabs.com](https://lxvelabs.com) · personal: [lxveace.com](https://lxveace.com)
 - 🛡️ **Project hubs** — [cybercontroller.org](https://cybercontroller.org) · [esp32marauder.com](https://esp32marauder.com)
 
 ## Stats
