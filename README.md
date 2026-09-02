@@ -57,16 +57,7 @@ I'm an Electrical Field Engineer on large, mission-critical data center builds. 
 
 ## Projects
 
-**[Cyber Controller](https://github.com/LxveAce/cyber-controller)** — the all-in-one security-hardware controller. Flash, control, and coordinate ESP32 (Marauder, Bruce, GhostESP), Flipper Zero, and Raspberry Pi hardware from one place: 52 firmware profiles across five flash backends, protocol-aware serial parsers, multi-device wardriving into one WiGLE map, an offline WPA/PMKID crack lab, and a red-team-audited security core. Stable v1.8.0, with a 2.0.0-beta prerelease of the reformed single-window GUI (native desktop + web) up for testing. Windows/Linux/macOS, ARM + x64.
-
-<details>
-<summary>lineage</summary>
-
-<br>
-
-Started as **[Headless Marauder](https://github.com/LxveAce/headless-marauder-gui)** (ESP32-only serial controller + multi-firmware flasher) → grew into **[Universal Flasher](https://github.com/LxveAce/universal-flasher)** → merged flash + live control in **Universal Flasher & UI** → became **Cyber Controller**, the flagship with cross-device coordination, a web remote, and a hardened security core.
-
-</details>
+**[Cyber Controller](https://github.com/LxveAce/cyber-controller)** — the all-in-one security-hardware controller. Flash, control, and coordinate ESP32 (Marauder, Bruce, GhostESP), Flipper Zero, and Raspberry Pi hardware from one place: 52 firmware profiles across five flash backends, protocol-aware serial parsers, multi-device wardriving into one WiGLE map, an offline WPA/PMKID crack lab, and a red-team-audited security core. Stable v1.8.0, with a 2.0.0-beta prerelease of the reformed single-window GUI (native desktop + web) up for testing. Windows/Linux/macOS, ARM + x64. *Under heavy development.*
 
 **[Universal Flasher](https://github.com/LxveAce/universal-flasher)** — firmware and software flasher with two clean tabs. Firmware side handles ESP32 (Marauder, GhostESP, Bruce) and Raspberry Pi images; software side flashes verified PC/USB operating systems (Kali, Tails, Arch) to USB with sha256/signature checks. Auto-updating catalog, full offline mode, self-updating. v1.4.0.
 
