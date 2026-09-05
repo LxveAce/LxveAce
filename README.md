@@ -4,14 +4,13 @@
 
 ---
 
-**Electrical Field Engineer by day. Builder of things that shouldn't exist by night.**
+**Electrical Field Engineer. Hardware and software projects at LxveLabs.**
 
 I'm an Electrical Field Engineer on large, mission-critical data center builds. Off the clock I run **LxveLabs**, my hardware and security-tools studio, where I build cybersecurity tools, desktop apps, and hardware around ESP32 platforms and Electron tooling. Naturally tech and mechanically inclined, and deep into the Honda/Acura K-series world.
 
 ### What I build
 
 - 📡 Multi-UI serial controllers and security tools for ESP32 platforms
-- 🖥️ A multi-vendor AI workbench desktop app (Electron, React, TypeScript)
 - 🔧 PCBs, soldering, laser engraving, and industrial printing
 - 🏎️ K-series builds and tuning
 
@@ -57,13 +56,12 @@ I'm an Electrical Field Engineer on large, mission-critical data center builds. 
 
 ## Projects
 
-**[Cyber Controller](https://github.com/LxveAce/cyber-controller)** — the all-in-one security-hardware controller. Flash, control, and coordinate ESP32 (Marauder, Bruce, GhostESP), Flipper Zero, and Raspberry Pi hardware from one place: 52 firmware profiles across five flash backends, protocol-aware serial parsers, multi-device wardriving into one WiGLE map, an offline WPA/PMKID crack lab, and a red-team-audited security core. Stable v1.8.0, with a 2.0.0-beta prerelease of the reformed single-window GUI (native desktop + web) up for testing. Windows/Linux/macOS, ARM + x64. *Under heavy development.*
+**[Cyber Controller](https://github.com/LxveAce/cyber-controller)** connects firmware flashing, device controls and serial tools in one desktop and web interface. It is under active development; see the repository for current releases, supported hardware and known limits.
 
 **[Universal Flasher](https://github.com/LxveAce/universal-flasher)** — firmware and software flasher with two clean tabs. Firmware side handles ESP32 (Marauder, GhostESP, Bruce) and Raspberry Pi images; software side flashes verified PC/USB operating systems (Kali, Tails, Arch) to USB with sha256/signature checks. Auto-updating catalog, full offline mode, self-updating. v1.4.0.
 
 **[Dead Man's Switch](https://github.com/LxveAce/deadmans-switch)** — universal anti-forensic dead-man gate for ESP32 security firmware. Boot password, 2-fail auto-wipe with a power-cycle-safe counter, a GPIO tamper switch, and optional eFuse Secure Boot v2. Hardware-validated to obliterate the whole flash on trigger. Owner-only defensive measure, same category as Kali's LUKS Nuke.
 
-**[Catalyst UI](https://github.com/LxveAce/catalyst-ui)** — multi-vendor AI workbench desktop app (Electron, React, TypeScript). Tabbed PTY terminal, a 41-model catalog with Hugging Face browsing and GGUF→Ollama import, an Obsidian-compatible Brain with semantic RAG, GitHub via Octokit, token-cost tracking, and a live CPU/RAM/GPU monitor. Ships for Windows, macOS, and Linux.
 
 **[Tag Studio](https://github.com/LxveAce/tag-studio)** — industrial label/tag design studio (Electron, React, Konva). Drag-and-drop canvas with layers and alignment guides, Code 128 / Code 39 / QR, CSV & Excel data-merge with N-up layout, and export to PDF/PNG/SVG/ZPL with native output for Trotec, Panduit, Roland, and Zebra.
 
