@@ -6,11 +6,11 @@
 
 **Electrical Field Engineer. Hardware and software projects at LxveLabs.**
 
-I'm an Electrical Field Engineer on large, mission-critical data center builds. Off the clock I run **LxveLabs**, my hardware and security-tools studio, where I build cybersecurity tools, desktop apps, and hardware around ESP32 platforms and Electron tooling. Naturally tech and mechanically inclined, and deep into the Honda/Acura K-series world.
+I'm an Electrical Field Engineer working on data center builds. Outside work, I build hardware and software under **LxveLabs**: ESP32 projects, desktop tools, PCBs, and whatever helps me get a build working. I'm also into Honda/Acura K-series cars, soldering, laser engraving, and industrial printing.
 
 ### What I build
 
-- 📡 Multi-UI serial controllers and security tools for ESP32 platforms
+- 📡 Device controllers, firmware tools, and ESP32 projects
 - 🔧 PCBs, soldering, laser engraving, and industrial printing
 - 🏎️ K-series builds and tuning
 
@@ -58,14 +58,14 @@ I'm an Electrical Field Engineer on large, mission-critical data center builds. 
 
 **[Cyber Controller](https://github.com/LxveAce/cyber-controller)** connects firmware flashing, device controls and serial tools in one desktop and web interface. It is under active development; see the repository for current releases, supported hardware and known limits.
 
-**[Universal Flasher](https://github.com/LxveAce/universal-flasher)** — firmware and software flasher with two clean tabs. Firmware side handles ESP32 (Marauder, GhostESP, Bruce) and Raspberry Pi images; software side flashes verified PC/USB operating systems (Kali, Tails, Arch) to USB with sha256/signature checks. Auto-updating catalog, full offline mode, self-updating. v1.4.0.
+**[LxveOS](https://github.com/LxveAce/lxveos)** is ESP32 firmware built around explicit board profiles and a shared capability manifest. It is still in development. A successful build is only part of board support; displays, pin mappings, and peripherals need their own testing.
 
-**[Dead Man's Switch](https://github.com/LxveAce/deadmans-switch)** — universal anti-forensic dead-man gate for ESP32 security firmware. Boot password, 2-fail auto-wipe with a power-cycle-safe counter, a GPIO tamper switch, and optional eFuse Secure Boot v2. Hardware-validated to obliterate the whole flash on trigger. Owner-only defensive measure, same category as Kali's LUKS Nuke.
+**[Universal Flasher](https://github.com/LxveAce/universal-flasher)** contains firmware catalogs and flashing tools, with supporting work being carried into Cyber Controller's web flasher. Image availability and verification vary by profile; the README covers supported paths and limits.
 
 
-**[Tag Studio](https://github.com/LxveAce/tag-studio)** — industrial label/tag design studio (Electron, React, Konva). Drag-and-drop canvas with layers and alignment guides, Code 128 / Code 39 / QR, CSV & Excel data-merge with N-up layout, and export to PDF/PNG/SVG/ZPL with native output for Trotec, Panduit, Roland, and Zebra.
+**[Dead Man's Switch](https://github.com/LxveAce/deadmans-switch)** is an ESP32 provisioning project for protecting an owner's device and data. It includes irreversible operations, so its documented limits and safety guidance matter. Hardware results apply to the particular boards and tests recorded in the project.
 
-**LxveOS** *(in development)* — a unified, multi-board ESP32 security firmware (ESP-IDF, MIT core). One codebase that detects the board it's flashed to and adapts, from a bare ESP32 to the CYD, M5StickC Plus2, and M5Cardputer, driven from a single capability manifest.
+**[Tag Studio](https://github.com/LxveAce/tag-studio)** is my label and tag design application under the separate ExpertTags brand. It combines a layout canvas, barcodes, data merge, and print/export tools. Development is currently parked; existing releases, templates, and documentation remain available.
 
 **[Civic SI Build](https://github.com/LxveAce/Civic-SI-Build)** — my 2009 Civic SI (FG2) K20Z3 build, tracked in git. Bolt-ons, maintenance, install guides, and part research through Hondata FlashPro tuning, with a Python generator for printable build docs.
 
