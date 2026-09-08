@@ -56,7 +56,7 @@ I'm an Electrical Field Engineer working on data center builds. Outside work, I 
 
 ## Projects
 
-**[Cyber Controller](https://github.com/LxveAce/cyber-controller)** connects firmware flashing, device controls and serial tools in one desktop and web interface. It is under active development; see the repository for current releases, supported hardware and known limits.
+**[Cyber Controller](https://github.com/LxveAce/cyber-controller)** connects firmware flashing, device controls and serial tools in one desktop and web interface. Still working on it, lotta updates to come. Supports most esp32 firmware / hardware & other hardware. please see the git repo for a proper list. 
 
 **[LxveOS](https://github.com/LxveAce/lxveos)** is ESP32 firmware built around explicit board profiles and a shared capability manifest. It is still in development. A successful build is only part of board support; displays, pin mappings, and peripherals need their own testing.
 
